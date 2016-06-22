@@ -7,7 +7,44 @@ nav a img {
 	margin-top: -0.6em;
 }
 
-nav h3 {
-	margin-left: -3em;
-	padding-left: -3em;
+
+.navbar-custom {
+	background-color: #fff;
+	border-color: #fff;
+	background-image: none;	
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+a.redtop{
+	border-top: 4px;
+	border-top-style: solid;
+	border-color: white;
+}
+
+a.redtop:hover {
+	transition-duration: 1s;
+	border-top: 4px;
+	border-top-style: solid;
+	border-color: #ae0000;
+} 
+
+#brand {
+	margin-top: 0em;
+	padding-top: 0.5em;
+	letter-spacing: 3px;
+	border-top: 4px;
+	border-color: white;
+	border-top-style: solid;
+	color: black;
+	background-image: none;
+}
+
+#brand:hover {
+	transition-duration: 1s;
+	border-top: 4px;
+	border-top-style: solid;
+	border-color: #ae0000
 }
