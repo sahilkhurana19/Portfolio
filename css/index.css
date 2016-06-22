@@ -7,7 +7,15 @@ nav a img {
 	margin-top: -0.6em;
 }
 
+#brand {
+	margin: 0em 0em 0em 0em;
+	color: black;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
 
+#brand:hover {
+	color:white;
+}
 .navbar-custom {
 	background-color: #fff;
 	border-color: #fff;
@@ -15,7 +23,13 @@ nav a img {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+   color: black;
+   font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+   color: white;
+   font-size: 1.5em;
 }
 
 .hvr-radial-out {
@@ -29,7 +43,7 @@ nav a img {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
-  background: #e1e1e1;
+  background: #ffffff;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -43,7 +57,7 @@ nav a img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: #ae0000;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
