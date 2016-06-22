@@ -18,7 +18,7 @@ nav a img {
     color: #000;
 }
 
-a.redtop{
+/*a.redtop{
 	border-top: 4px;
 	border-top-style: solid;
 	border-color: white;
@@ -47,4 +47,9 @@ a.redtop:hover {
 	border-top: 4px;
 	border-top-style: solid;
 	border-color: #ae0000
+}
+*/
+
+.hvr-radial-out:before {
+	background: #ae0000;
 }
