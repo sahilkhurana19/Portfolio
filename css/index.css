@@ -38,9 +38,9 @@ nav a img {
 
 .navbar-collapse {
 	text-align: center;
-	background-color: transparent;
+	background-color: white;
 }
-
+/*
 .navbar-header {
 	float: none;
 }
@@ -50,7 +50,8 @@ nav a img {
 }
 
 .navbar-nav > li{
-	float: none;
+	float: none !important;
+	margin-right: 0%;
 }
 
 #wrapper {
@@ -61,12 +62,12 @@ nav a img {
 
 .navbar-collapse {
 	position: fixed;
-	top: 0;
+	top: 3.8em;
 	right: -30%;
 	display: block;
 	width: 30%;
 	height: 100%;
-	margin: 0;
+	margin-right: 10%;
 	transition: right 0.35s ease;
 }
 
@@ -75,7 +76,7 @@ nav a img {
 }
 
 .navbar-collapse.in {
-	right: 0;
+	right: 0%;
 }
 
 body.menu-slider.in {
@@ -87,8 +88,8 @@ body.menu-slider #wrapper {
 }
 
 body.menu-slider.in #wrapper {
-    right: 30%;
-}
+    right: 25%;
+}*/
 
 .hvr-radial-out {
   display: inline-block;
