@@ -1,13 +1,28 @@
+
 body {
   padding-top: 5em;
   color: white;
-  background-color: #262626
+  background-color: #262626;
+}
+  /*position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+#superWrapper {
+  position: relative;
+}
+
+#wrapper {
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .container-fluid {
-  background-color: #262626
-  position: relative;
-}
+  background-color: #262626;
+}*/
 
 
 nav a img {
@@ -73,9 +88,45 @@ nav a img {
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  /*background-position: 50% 50%;*/
   z-index: -20;
 }
+/*
+.backText{
+  font-size: 11em;
+  font-weight: bolder;
+  color: #191919;
+  position: absolute;
+  left: 25%;
+  z-index: 1;
+  text-align: center;
+}
+
+.frontText {
+  margin-top: 8em;
+  position: absolute;
+  z-index: 2;
+  color: #df0036;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-device-width:480px) {
+
+  .backText{
+    font-size: 5em;
+    left: 5%;
+
+  }
+
+  .frontText {
+    margin-top: 2em;
+    opacity: 0.9;
+    right: 20%
+  }
+  
+}
+*/
 
 .hvr-radial-out {
   display: inline-block;
