@@ -147,6 +147,15 @@ nav a img {
   transition-duration: 0.4s;
 }
 
+#projectsHeading {
+  color: #df0036;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: 42%
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .backText{
     margin-top: -0.5em;
@@ -165,6 +174,17 @@ nav a img {
 
   #toolsHeading {
     margin-left: 10%;
+  }
+  
+  #projectsHeading {
+    margin-left: 33%;
+  } 
+
+  body .portfolioCard{
+    margin-left: -0.5em;
+    max-width: 30em;
+    max-height: 20em;
+    margin-top: 2em;
   }
 }
 
@@ -186,6 +206,17 @@ nav a img {
 
   #toolsHeading {
     margin-left: 28%;
+  }
+  
+  #projectsHeading {
+    margin-left: 40%;
+  }
+
+  body .portfolioCard{
+    margin-left: 8em;
+    max-width: 40em;
+    max-height: 35em;
+    margin-top: 2em;
   }
 } 
 
@@ -309,5 +340,59 @@ nav a img {
   background: #0c0c0c;
   box-shadow: 80px 0 #0c0c0c, -80px 0 #0c0c0c;
   opacity: 0.8;
+}
+
+.portfolioCard {
+    margin-top: 1em;
+    display: block;
+    position:relative;
+    width:35em;
+    height:25em;
+    overflow:hidden;
+    margin-left: 5em;
+    background-color:#0c0c0c;
+    list-style: none;
+    opacity: 0.9;
+}
+.portfolioCard p,.portfolioCard h2{
+    color:#df0036;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative;
+}
+.portfolioCard p {
+    font-size:16px;
+    line-height:18px;
+    margin:0
+    text-align: justify-all;
+}
+.portfolioCard h2 {
+    font-size:24px;
+    line-height:24px;
+    margin:0;
+    text-align: center;
+}
+
+.effect img {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .4s ease-out;
+    -moz-transition:bottom .4s ease-out;
+    -o-transition:bottom .4s ease-out;
+    transition:bottom .4s ease-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:10;
 }
 
