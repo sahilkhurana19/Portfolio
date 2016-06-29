@@ -2,6 +2,8 @@ body {
   padding-top: 5em;
   color: white;
   background-color: #1c1c1c;
+  position: relative;
+  height: 100%;
 }
 
 html{
@@ -42,6 +44,7 @@ nav a img {
   color:#b8002d;
 }
 .navbar-custom {
+  font-family: 'El Messiri', sans-serif;
   background-color: #1c1c1c;
   border-color: #1c1c1c;
   background-image: none; 
@@ -95,6 +98,7 @@ nav a img {
 }
 
 .backText{
+  font-family: 'Cinzel', serif;
   margin-top: -3.6em;
   font-size:6.5em;
   position: relative;
@@ -103,9 +107,11 @@ nav a img {
   padding-left: 1.5em;
   z-index: 1;
   color: #0c0c0c;
+
 }
 
 .frontText{
+  font-family: 'El Messiri', sans-serif;
   margin-top: -5em;
   font-size:4em;
   text-align: center;
@@ -114,9 +120,25 @@ nav a img {
   color: #df0036;
 }
 
+.backText1{
+  font-family: 'Cinzel', serif;
+  margin-top: -1em;
+  font-size:6.5em;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 0em;
+  z-index: 1;
+  color: #0c0c0c;
+}
+
 .intro{
+  font-family: 'El Messiri', sans-serif;
+  margin-top: -2.5em;
   font-size: 2em;
   text-align: justify;
+  position: relative;
+  z-index: 2;
 }
 
 .highlight {
@@ -126,6 +148,7 @@ nav a img {
 }
 
 #toolsHeading{
+  font-family: 'Orbitron', sans-serif;
   color: #df0036;
   font-weight: bold;
   text-align: center;
@@ -148,6 +171,7 @@ nav a img {
 }
 
 #projectsHeading {
+  font-family: 'Orbitron', sans-serif;
   color: #df0036;
   font-weight: bold;
   text-align: center;
@@ -156,7 +180,20 @@ nav a img {
   margin-left: 44%
 }
 
+.backText2{
+  font-family: 'Cinzel', serif;
+  margin-top: -1em;
+  font-size:6.5em;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 0em;
+  z-index: 1;
+  color: #0c0c0c;
+}
+
 .socialIconsPink,.socialIconsWhite{
+  margin-top: 1em;
   display: inline-block;
   font-size: 4em;
   text-align: center;
@@ -185,6 +222,7 @@ nav a img {
 }
 
 .final{
+  font-family: 'El Messiri', sans-serif;
   color: #fff;
   font-size: 2em;
   text-align: center;
@@ -195,6 +233,7 @@ p #name {
   text-decoration: underline;
   transition-duration: 0.6s;
 }
+
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .backText{
@@ -207,6 +246,17 @@ p #name {
     text-align: justify-all;
 
   }
+
+  .backText1{
+  margin-top: -1.6em;
+  font-size:4.8em;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 0em;
+  z-index: 1;
+  color: #0c0c0c;
+}
 
   .leftsmall{
     margin-left: -2em;
@@ -225,6 +275,25 @@ p #name {
     max-width: 30em;
     max-height: 20em;
     margin-top: 2em;
+  }
+
+  .final{
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  }
+
+  body .portfolioCard p {
+    font-size:12px;
+    line-height:18px;
+    margin:0
+    text-align: justify-all;
+  }
+  body .portfolioCard h2 {
+    font-size:22px;
+    line-height:24px;
+    margin:0;
+    text-align: center;
   }
 }
 
@@ -258,6 +327,14 @@ p #name {
     max-height: 35em;
     margin-top: 2em;
   }
+
+  .socialIconsPink,.socialIconsWhite{
+  display: inline-block;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2em;
+  }
 } 
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
@@ -279,6 +356,27 @@ p #name {
     max-width: 25em;
     max-height: 20em;
     margin-top: 2em;
+  }
+  
+  .socialIconsPink,.socialIconsWhite{
+  display: inline-block;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2em;
+  }
+
+  body .portfolioCard p {
+    font-size:15px;
+    line-height:14px;
+    margin:0
+    text-align: justify-all;
+  }
+  body .portfolioCard h2 {
+    font-size:24px;
+    line-height:24px;
+    margin:0;
+    text-align: center;
   }
 
 }
@@ -310,7 +408,27 @@ p #name {
   #tools {
     margin-left: -0.13em;
   }
+
+  .final{
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  }
+
+  .socialIconsPink,.socialIconsWhite{
+  display: inline-block;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2em;
+  }
 }
+
+.heart {
+  color: red;
+}
+
+
 
 .hvr-radial-out {
   display: inline-block;
@@ -428,12 +546,14 @@ p #name {
     position:relative;
 }
 .portfolioCard p {
+    font-family: 'Comfortaa', cursive;
     font-size:16px;
     line-height:18px;
     margin:0
     text-align: justify-all;
 }
 .portfolioCard h2 {
+    font-family: 'El Messiri', sans-serif;
     font-size:24px;
     line-height:24px;
     margin:0;
