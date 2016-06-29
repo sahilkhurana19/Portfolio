@@ -239,16 +239,17 @@ p #name {
   .backText{
     margin-top: -0.5em;
     padding-left: 0em;
+    font-size: 5.7em;
   }
 
   .frontText{
-    margin-top: -1.5em;
+    margin-top: -1.3em;
     text-align: justify-all;
 
   }
 
   .backText1{
-  margin-top: -1.6em;
+  margin-top: -1.7em;
   font-size:4.8em;
   position: relative;
   text-align: center;
@@ -263,12 +264,16 @@ p #name {
   }
 
   #toolsHeading {
-    margin-left: 10%;
+    margin-left: 3%;
   }
   
   #projectsHeading {
-    margin-left: 33%;
+    margin-left: 27%;
   } 
+
+  .backText2{
+    font-size: 3em;
+  }
 
   body .portfolioCard{
     margin-left: -0.5em;
@@ -299,13 +304,14 @@ p #name {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
  .backText {
+  font-size: 5.7em;
   margin-top : -2.5em;
-  padding-left: 1em;
+  padding-left: 0.91em;
  }
   
   .frontText {
     margin-top: -3em;
-    padding-left: 3em;
+    padding-left: 3.3em;
   }
 
   #maindp {
@@ -319,6 +325,10 @@ p #name {
   
   #projectsHeading {
     margin-left: 40%;
+  }
+
+  .backText2{
+    font-size: 5.5em;
   }
 
   body .portfolioCard{
@@ -339,7 +349,7 @@ p #name {
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
   .backText {
-    font-size: 6em;
+    font-size: 5em;
   }
   .frontText {
     font-size: 3.5em;
@@ -347,8 +357,19 @@ p #name {
   .leftsmall{
     margin-left: -2.5em;
   }
+
+  .backText1{
+    font-size: 4.5em;
+    margin-top: -1.8em;
+  }
+
   #toolsHeading {
-    margin-left: 5%;
+    font-size: 2.23em;
+  }
+
+  #projectsHeading {
+    font-size: 3.5em;
+    margin-left: 1.15em;
   }
   
   body .portfolioCard{
@@ -379,15 +400,25 @@ p #name {
     text-align: center;
   }
 
+  .backText2{
+    font-size: 2.6em;
+    left: 1%;
+  }
+
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
   .backText {
-    font-size: 5.5em;
+    font-size: 5.0em;
   }
 
   .frontText {
     font-size: 3em; 
+  }
+
+  .backText1 {
+    font-size: 4.1em;
+    margin-top: -1.9em;
   }
   
   body .portfolioCard{
@@ -397,16 +428,26 @@ p #name {
     margin-top: 2em;
   }  
   
+  body .portfolioCard p{
+    font-size:11px;
+  }
+
   #projectsHeading {
-    margin-left: 29%;
+    margin-left: 25%;
   }
 
   #toolsHeading {
-    margin-left: 0.09em;
+    font-size: 2.1em;
+    margin-left: 0.11em;
   }
 
   #tools {
     margin-left: -0.13em;
+  }
+
+  .backText2{
+    font-size: 2.5em;
+    left: 2%;
   }
 
   .final{
