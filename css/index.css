@@ -85,7 +85,7 @@ nav a img {
 }
 
 #maindp{
-  height: 50%;
+  height: 40%;
   width: 80%;
   border-radius: 50%;
   z-index: -6;
@@ -95,6 +95,7 @@ nav a img {
   border-style: solid;
   display: block;
   margin: auto;
+  object-fit: cover;
 }
 
 .backText{
